@@ -7,10 +7,10 @@ The course is split up into three sections:
 - After this, specific types of neural networks are discussed.  
     - These are auto-encoders, Convolutional networks and Recurrent Networks/LSTMs.
 - Finally, we discuss five papers that are important in the field.  The papers in order are:
-    - AlexNet and ZFNet (both papers discussed in one lecture)
-    - Dynamic Pooling and Unfolding Recursive Autoencoders for Paraphrase Detection
-    - Pixel Recursive Super Resolution
-    - Mastering the Game of Go with Deep Neural Networks and Tree Search
+    - [AlexNet](https://papers.nips.cc/paper/4824-imagenet-classification-with-deep-convolutional-neural-networks.pdf) and [ZFNet](https://arxiv.org/pdf/1311.2901.pdf) (both papers discussed in one lecture)
+    - [Dynamic Pooling and Unfolding Recursive Autoencoders for Paraphrase Detection](https://papers.nips.cc/paper/4204-dynamic-pooling-and-unfolding-recursive-autoencoders-for-paraphrase-detection.pdf)
+    - [Pixel Recursive Super Resolution](https://arxiv.org/pdf/1702.00783.pdf)
+    - [Mastering the Game of Go with Deep Neural Networks and Tree Search](https://gogameguru.com/i/2016/03/deepmind-mastering-go.pdf)
   
 The last lecture topic will be up to the students.  Options include GANs, future of deep learning, and genetic algorithms.
 
