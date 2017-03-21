@@ -15,4 +15,4 @@ Using simple gradient descent, we find the partial derivatives w.r.t. the weight
 We then use the formula Theta_i_new = Theta_i - learning_rate × d(Error(Y))/dTheta_i, where Theta_i is any of the parameters in question.  For the sake of example, learning_rate is given a clean, small value.  
 We calculate the new weights and biases and find that our next iteration of the neural network has less error!
 
-The rest of lecture was spent talking about activation functions, such as sigmoid (which is out of fashion now), tanh, relu, etc.  Discussed how these introduce nonlinearity, which allows our network to learn nonlinear functions.
+The rest of lecture was spent talking about activation functions, such as sigmoid (which seems to be falling out of fashion now), tanh, relu, etc.  Discussed how these introduce nonlinearity, which allows our network to learn nonlinear functions.
