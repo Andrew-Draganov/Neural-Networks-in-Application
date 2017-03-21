@@ -1,5 +1,5 @@
 # Neural-Networks-in-Application
-A student-run course I taught at UVA for upper class computer science students.  Student run courses are only allowed to be one-credit, which means that there was little opportunity for discussing code.  Instead, the focus was on the mathematical foundation of neural networks and how the model can be extended to achieve desired results.
+A student-run course I teach at UVA for upper class computer science students.  Student run courses are only allowed to be one-credit, which means that there was little opportunity for discussing code.  Instead, the focus was on the mathematical foundation of neural networks and how the model can be extended to achieve desired results.
 
 The course is split up into three sections:  
 
