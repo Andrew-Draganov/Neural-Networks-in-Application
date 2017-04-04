@@ -3,7 +3,7 @@ Lectures 3 and 4 were not done through slideshows, as they introduced the mathem
 Lecture 3 introduced neural networks through a simple example.  Here is a rough overview of the content covered in the example:
 
 We want a simple network to learn the identity function f(X) = X.
-Our network architecture consists of one scalar input, one neuron in the single hidden layer, and one output scalar.  This means that our weights and biases are scalars as well.  Initially, the network does not have an activation function for the hidden layer.
+Our network architecture consists of one scalar input, one neuron in the single hidden layer, and one scalar output.  This means that our weights and biases are scalars as well.  Initially, the network does not have an activation function for the hidden layer.
 This network configuration gives the formula Y = W2( W1×X + B1 ) + B2.
 For the sake of example, the weights and biases are initialized to integers that do not give the identity function (which would be weights of 1, biases of 0).
 
