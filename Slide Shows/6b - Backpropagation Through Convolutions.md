@@ -14,7 +14,7 @@ For the convolutions, remember that each neuron in a convolutional layer receive
 
 So in the convolutional case, a neuron in layer 1 has weights to all of the depths of the 'long blocks' (plural!) that are connected to it in layer 2.  So when we backpropagate to neurons in layer 1, we sum the (gradients × weights) to all of the neurons in layer 2.  The difference, however, is that the number of gradients summed will be different for various neurons due to the convolutional geometry. The reasons why are outside the scope of this class, but are explained neatly [here](https://grzegorzgwardys.wordpress.com/2016/04/22/8/).  Just know that the gradients through convolutions work in a similar way, in that you take the sum of all of the (gradients × weights) a neuron is connected to.  This is what I guessed in class, but my thoughts weren't substantiated by evidence.
 
-My guess was 100% wrong, however, when I spoke of taking gradients through max pooling.  For 2x2 max pooling, we only pass the most activated neuron through, thus reducing our network size.  I said that the gradient would be taken on the maximum, but then applied equally to everything in the square it was taken from.  To be honest, now that I think about it, this makes little intuitive sense.
+My guess was 100% wrong, however, when I spoke of taking gradients through max pooling.  For 2x2 max pooling, we only pass the most activated neuron through, thus reducing our network size.  I guessed that the gradient would be taken on the maximum, but then applied equally to everything in the square it was taken from.  To be honest, now that I think about it, this makes little intuitive sense.
 
 Let's say we are doing max pooling with a 2x2 filter size and have the following activated neurons:
 
