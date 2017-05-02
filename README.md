@@ -3,7 +3,7 @@ A student-run course I taught at UVA for upper class computer science students. 
 
 The course is split up into three sections:  
 
-- The first consists of an introduction to machine learning and neural networks for four lectures.
+- An introduction to machine learning and neural networks for four lectures.
 - After this, specific types of neural networks are discussed.  
     - These are auto-encoders, Convolutional networks and Recurrent Networks/LSTMs.
 - Finally, we discuss five papers that are either important in the field or just really cool.  The papers in order are:
